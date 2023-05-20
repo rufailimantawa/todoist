@@ -1,6 +1,6 @@
 # Todoist
 
-A simple todo list web application.
+A simple todo list web application using HTML, CSS and JavaScript.
 
 ## Funtionalities
 
