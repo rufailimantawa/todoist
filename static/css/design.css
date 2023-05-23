@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ededed;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    line-height: 1.2;
+}
+
+.app {
+    background-color: #fff;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 512px;
+}
+
+.title h2 {
+    padding: 8px 0px;
+    margin: 0;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group .task-message {
+    flex: 1;
+    outline: none;
+    border: 2px solid rgb(200, 200, 200);
+    border-right: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px;
+}
+
+.form-group .add-task {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: rgb(199, 90, 90);
+    color: #fff;
+    font-weight: bold;
+}
+
+.filter-counter {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: space-between;
+}
+
+.counter {
+    padding: 8px 0px;
+}
+
+.filter {
+    display: flex;
+}
+
+.filter button {
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.filter button:last-child {
+    margin: 0;
+}
+
+.task-list .task {
+    display: flex;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: rgb(240, 240, 240);
+}
+
+.task-list .task .task-checkbox {
+    width: 16px;
+}
+
+.task-list .task .task-message {
+    flex: 1;
+    padding: 8px;
+}
+
+.task-list .task .task-actions {
+    display: flex;
+}
+
+.task-list .task .task-actions button {
+    padding: 5px 8px;
+    border: none;
+    font-weight: bold;
+}
+
+.task-list .task .task-actions button:first-child {
+    margin-right: 5px;
+}
+
+.task-list .task .task-actions button.task-edit {
+    background-color: rgb(32, 179, 119);
+    color: #fff;
+}
+
+.task-list .task .task-actions button.task-delete {
+    background-color: rgb(225, 112, 112);
+    color: #fff;
+}
